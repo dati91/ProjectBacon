@@ -26,8 +26,8 @@ $ nvm use 8
 # Install the project dependencies.
 $ npm install
 
-# To run the liverload developer site.
-$ npm start
+# To run the livereload developer site.
+$ npm run start-dev
 ```
 
 ### Build the project
@@ -39,6 +39,9 @@ $ npm install
 
 # To build the production.
 $ npm run build
+
+# Optional: To start the server
+$ npm start
 ```
 
 ### Run style checker
