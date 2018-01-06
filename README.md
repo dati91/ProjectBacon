@@ -31,6 +31,10 @@ $ npm install
 
 # To run the livereload developer site.
 $ npm run start-dev
+
+# On Windows you need to manually set the NODE_ENV var to "dev" and start the server
+$ $env:NODE_ENV="dev"
+$ node server
 ```
 
 ### Build the project
